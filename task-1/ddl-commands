@@ -1,0 +1,18 @@
+// Creating a table
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(20),
+    marks INT,
+    grade CHAR(1)
+);
+
+// Altering table by adding place column
+ALTER TABLE student
+ADD place VARCHAR(20);
+
+// Altering table by modifying datatype of grade
+ALTER TABLE student
+MODIFY COLUMN grade VARCHAR(20);
+
+
+// BY PRIYANKA S
